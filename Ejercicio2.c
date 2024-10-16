@@ -14,6 +14,7 @@ int main(){
     puts("Canitdad de kilometros a recorrer:");
     scanf("%f",&distancia);
      // Impresion de resultado
+    printf("Hola amigo el precio de tu gasolina es:");
     printf("Precio del boleto: $%.2f\n",precioKilometro * distancia);
      return 0; 
 }
