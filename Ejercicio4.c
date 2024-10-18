@@ -10,9 +10,8 @@ int main(){
 	// Entrada de datos
 	puts("Velocidad en (km/h):");
 	scanf("%f",velocidad);
-    puts("Distancia recorrida:");
+   puts("La distancia total recorrida es de:");
 	scanf("%f",&distancia);
-	// Impresion de resultado.
-	printf("Tiempo: %.2f horas\n",(velocidad*distancia) / 60);
+	printf("Tiempo final: %.2f horas\n",(velocidad*distancia) / 60);
 	return 0;
 }
